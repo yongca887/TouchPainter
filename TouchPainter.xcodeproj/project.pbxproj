@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE31F5B4191CFE4000B02E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F5B3191CFE4000B02E50 /* Foundation.framework */; };
+		EE31F5B6191CFE4000B02E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F5B5191CFE4000B02E50 /* CoreGraphics.framework */; };
+		EE31F5B8191CFE4000B02E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F5B7191CFE4000B02E50 /* UIKit.framework */; };
+		EE31F5BE191CFE4000B02E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE31F5BC191CFE4000B02E50 /* InfoPlist.strings */; };
+		EE31F5C0191CFE4000B02E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31F5BF191CFE4000B02E50 /* main.m */; };
+		EE31F5C4191CFE4000B02E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31F5C3191CFE4000B02E50 /* AppDelegate.m */; };
+		EE31F5C6191CFE4000B02E50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31F5C5191CFE4000B02E50 /* Images.xcassets */; };
+		EE31F5CD191CFE4000B02E50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F5CC191CFE4000B02E50 /* XCTest.framework */; };
+		EE31F5CE191CFE4000B02E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F5B3191CFE4000B02E50 /* Foundation.framework */; };
+		EE31F5CF191CFE4000B02E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F5B7191CFE4000B02E50 /* UIKit.framework */; };
+		EE31F5D7191CFE4000B02E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE31F5D5191CFE4000B02E50 /* InfoPlist.strings */; };
+		EE31F5D9191CFE4000B02E50 /* TouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31F5D8191CFE4000B02E50 /* TouchPainterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE31F5D0191CFE4000B02E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE31F5A8191CFE4000B02E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE31F5AF191CFE4000B02E50;
+			remoteInfo = TouchPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE31F5B0191CFE4000B02E50 /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31F5B3191CFE4000B02E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE31F5B5191CFE4000B02E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE31F5B7191CFE4000B02E50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE31F5BB191CFE4000B02E50 /* TouchPainter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchPainter-Info.plist"; sourceTree = "<group>"; };
+		EE31F5BD191CFE4000B02E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE31F5BF191CFE4000B02E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE31F5C1191CFE4000B02E50 /* TouchPainter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchPainter-Prefix.pch"; sourceTree = "<group>"; };
+		EE31F5C2191CFE4000B02E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE31F5C3191CFE4000B02E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE31F5C5191CFE4000B02E50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE31F5CB191CFE4000B02E50 /* TouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31F5CC191CFE4000B02E50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE31F5D4191CFE4000B02E50 /* TouchPainterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchPainterTests-Info.plist"; sourceTree = "<group>"; };
+		EE31F5D6191CFE4000B02E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE31F5D8191CFE4000B02E50 /* TouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterTests.m; sourceTree = "<group>"; };
+		EE31F5E3191D011800B02E50 /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE31F5AD191CFE4000B02E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F5B6191CFE4000B02E50 /* CoreGraphics.framework in Frameworks */,
+				EE31F5B8191CFE4000B02E50 /* UIKit.framework in Frameworks */,
+				EE31F5B4191CFE4000B02E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31F5C8191CFE4000B02E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F5CD191CFE4000B02E50 /* XCTest.framework in Frameworks */,
+				EE31F5CF191CFE4000B02E50 /* UIKit.framework in Frameworks */,
+				EE31F5CE191CFE4000B02E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE31F5A7191CFE4000B02E50 = {
+			isa = PBXGroup;
+			children = (
+				EE31F5B9191CFE4000B02E50 /* TouchPainter */,
+				EE31F5D2191CFE4000B02E50 /* TouchPainterTests */,
+				EE31F5B2191CFE4000B02E50 /* Frameworks */,
+				EE31F5B1191CFE4000B02E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE31F5B1191CFE4000B02E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5B0191CFE4000B02E50 /* TouchPainter.app */,
+				EE31F5CB191CFE4000B02E50 /* TouchPainterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE31F5B2191CFE4000B02E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5B3191CFE4000B02E50 /* Foundation.framework */,
+				EE31F5B5191CFE4000B02E50 /* CoreGraphics.framework */,
+				EE31F5B7191CFE4000B02E50 /* UIKit.framework */,
+				EE31F5CC191CFE4000B02E50 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE31F5B9191CFE4000B02E50 /* TouchPainter */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5E2191D00EF00B02E50 /* Classes */,
+				EE31F5C2191CFE4000B02E50 /* AppDelegate.h */,
+				EE31F5C3191CFE4000B02E50 /* AppDelegate.m */,
+				EE31F5C5191CFE4000B02E50 /* Images.xcassets */,
+				EE31F5BA191CFE4000B02E50 /* Supporting Files */,
+			);
+			path = TouchPainter;
+			sourceTree = "<group>";
+		};
+		EE31F5BA191CFE4000B02E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5BB191CFE4000B02E50 /* TouchPainter-Info.plist */,
+				EE31F5BC191CFE4000B02E50 /* InfoPlist.strings */,
+				EE31F5BF191CFE4000B02E50 /* main.m */,
+				EE31F5C1191CFE4000B02E50 /* TouchPainter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE31F5D2191CFE4000B02E50 /* TouchPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5D8191CFE4000B02E50 /* TouchPainterTests.m */,
+				EE31F5D3191CFE4000B02E50 /* Supporting Files */,
+			);
+			path = TouchPainterTests;
+			sourceTree = "<group>";
+		};
+		EE31F5D3191CFE4000B02E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5D4191CFE4000B02E50 /* TouchPainterTests-Info.plist */,
+				EE31F5D5191CFE4000B02E50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE31F5E2191D00EF00B02E50 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F5E3191D011800B02E50 /* Mark.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE31F5AF191CFE4000B02E50 /* TouchPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31F5DC191CFE4000B02E50 /* Build configuration list for PBXNativeTarget "TouchPainter" */;
+			buildPhases = (
+				EE31F5AC191CFE4000B02E50 /* Sources */,
+				EE31F5AD191CFE4000B02E50 /* Frameworks */,
+				EE31F5AE191CFE4000B02E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPainter;
+			productName = TouchPainter;
+			productReference = EE31F5B0191CFE4000B02E50 /* TouchPainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE31F5CA191CFE4000B02E50 /* TouchPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31F5DF191CFE4000B02E50 /* Build configuration list for PBXNativeTarget "TouchPainterTests" */;
+			buildPhases = (
+				EE31F5C7191CFE4000B02E50 /* Sources */,
+				EE31F5C8191CFE4000B02E50 /* Frameworks */,
+				EE31F5C9191CFE4000B02E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE31F5D1191CFE4000B02E50 /* PBXTargetDependency */,
+			);
+			name = TouchPainterTests;
+			productName = TouchPainterTests;
+			productReference = EE31F5CB191CFE4000B02E50 /* TouchPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE31F5A8191CFE4000B02E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "华雄科技";
+				TargetAttributes = {
+					EE31F5CA191CFE4000B02E50 = {
+						TestTargetID = EE31F5AF191CFE4000B02E50;
+					};
+				};
+			};
+			buildConfigurationList = EE31F5AB191CFE4000B02E50 /* Build configuration list for PBXProject "TouchPainter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE31F5A7191CFE4000B02E50;
+			productRefGroup = EE31F5B1191CFE4000B02E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE31F5AF191CFE4000B02E50 /* TouchPainter */,
+				EE31F5CA191CFE4000B02E50 /* TouchPainterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE31F5AE191CFE4000B02E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F5BE191CFE4000B02E50 /* InfoPlist.strings in Resources */,
+				EE31F5C6191CFE4000B02E50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31F5C9191CFE4000B02E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F5D7191CFE4000B02E50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE31F5AC191CFE4000B02E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F5C4191CFE4000B02E50 /* AppDelegate.m in Sources */,
+				EE31F5C0191CFE4000B02E50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31F5C7191CFE4000B02E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F5D9191CFE4000B02E50 /* TouchPainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE31F5D1191CFE4000B02E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE31F5AF191CFE4000B02E50 /* TouchPainter */;
+			targetProxy = EE31F5D0191CFE4000B02E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE31F5BC191CFE4000B02E50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31F5BD191CFE4000B02E50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE31F5D5191CFE4000B02E50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31F5D6191CFE4000B02E50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE31F5DA191CFE4000B02E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE31F5DB191CFE4000B02E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE31F5DD191CFE4000B02E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPainter/TouchPainter-Prefix.pch";
+				INFOPLIST_FILE = "TouchPainter/TouchPainter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE31F5DE191CFE4000B02E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPainter/TouchPainter-Prefix.pch";
+				INFOPLIST_FILE = "TouchPainter/TouchPainter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE31F5E0191CFE4000B02E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchPainter.app/TouchPainter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPainter/TouchPainter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TouchPainterTests/TouchPainterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE31F5E1191CFE4000B02E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchPainter.app/TouchPainter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchPainter/TouchPainter-Prefix.pch";
+				INFOPLIST_FILE = "TouchPainterTests/TouchPainterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE31F5AB191CFE4000B02E50 /* Build configuration list for PBXProject "TouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31F5DA191CFE4000B02E50 /* Debug */,
+				EE31F5DB191CFE4000B02E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE31F5DC191CFE4000B02E50 /* Build configuration list for PBXNativeTarget "TouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31F5DD191CFE4000B02E50 /* Debug */,
+				EE31F5DE191CFE4000B02E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE31F5DF191CFE4000B02E50 /* Build configuration list for PBXNativeTarget "TouchPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31F5E0191CFE4000B02E50 /* Debug */,
+				EE31F5E1191CFE4000B02E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE31F5A8191CFE4000B02E50 /* Project object */;
+}
